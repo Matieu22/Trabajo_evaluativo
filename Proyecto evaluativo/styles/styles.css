@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #FFE600;
+    font-family: sans-serif;
+    font-size: 74px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 1;
+    border-color: yellow;
+    padding: 1px 1px;
+    flex: auto;
+}
+
+.button-container button {
+    margin: 50px;
+    border-bottom: #FFE600;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4E4E4E;
+    color: white;
+    border: yellow;
+    cursor: pointer;
+
+
+}
+
+.button-container button:active {
+    background-color: #ffe600;
+}
+
+body {
+    background-color: #4E4E4E;
+}
+
+.result-container {
+    font-family: sans-serif;
+    font-size: 10px;
+    border: #FFE600;
+
+}
+
